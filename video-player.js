@@ -87,7 +87,7 @@ function renderVideoClip(clip) {
 function renderVideoPlaylist(videoPlaylist) {
   renderVideoPlaylistHeaderElement(videoPlaylist)
   renderVideoClip(videoPlaylist.videoClips[0])
-  renderVideoClip(videoPlaylist.videoClips[1])
+  // renderVideoClip(videoPlaylist.videoClips[1])
   renderVideoClip(videoPlaylist.videoClips[2])
 }
 
